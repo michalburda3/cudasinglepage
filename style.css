@@ -1,88 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900');
-
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
 body {
-	font-family: "Titillium Web", sans-serif;
-}
+  font-family: "Titillium Web", sans-serif; }
 
-/*nav*/
-/*zmienić jednostki na rem*/
-/*.container {
-	width: 1200px;
-	margin-right: auto;
-	margin-left: auto;
-}*/
-.navbar-default .navbar-nav>li>a {
-	color: #ffffff;
-	padding: 6.5rem 0.8rem;
-	line-height: 4rem;
-	margin-left: 1.5rem;
-	margin-right: 1.5rem;
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	font-weight: 200;
-}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  padding: 6.5rem 0.8rem;
+  line-height: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 200; }
 
 ul.navbar-right {
-	margin-right: 25rem;
-}
-.navbar>.container-fluid .navbar-brand {
-	margin-left: 25rem;
-}
+  margin-right: 25rem; }
 
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 25rem; }
 
 .navbar-default .navbar-brand {
-	color: #ffffff;
-	padding: 6.5rem 1rem;
-	line-height: 4rem;
-	font-size: 6rem;
-	box-sizing: border-box;
-	height: 15rem;
-	font-weight: 700;
-	font-style: italic;
-	/*dobrac jakas inna czcionke*/
-
-}
+  color: #ffffff;
+  padding: 6.5rem 1rem;
+  line-height: 4rem;
+  font-size: 6rem;
+  box-sizing: border-box;
+  height: 15rem;
+  font-weight: 700;
+  font-style: italic;
+  /*dobrac jakas inna czcionke*/ }
 
 .navbar-default {
-	height: 17rem;
-	background-color: #87509c;
-	margin: 0px;
-}
+  height: 17rem;
+  background-color: #87509c;
+  margin: 0px; }
 
 div.jumbotron {
-	height: 35rem;
-	color: #ffffff;
-	background-color: #87509c;
-	margin: 0;
-	padding-top: 8rem;
-	box-sizing: border-box;
-}
+  height: 35rem;
+  color: #ffffff;
+  background-color: #87509c;
+  margin: 0;
+  padding-top: 8rem;
+  box-sizing: border-box; }
 
-div.jumbotron>p {
-	line-height: 5rem;
-	font-size: 3.5rem;
-	font-weight: 700;
-}
+div.jumbotron > p {
+  line-height: 5rem;
+  font-size: 3.5rem;
+  font-weight: 700; }
 
-div.jumbotron>div>button {
-	background-color: #eb7d4b;
-	color: #ffffff;
-	text-transform: uppercase;
-	width: 250px;
-	height: 50px;
-	border-radius: 5px;
-	text-align: center;
-	border: 0;
-	margin-top: 20px;
-	padding: 15px;
-	box-shadow: 0 4px 2px -2px #c86a40;
+div.jumbotron > div > button {
+  background-color: #eb7d4b;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  border: 0;
+  margin-top: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 2px -2px #c86a40; }
 
-}
+div.jumbotron > div > button:hover {
+  background-color: #c86a40; }
 
-div.jumbotron>div>button:hover {
-	background-color: #c86a40;
-}
-
-div.jumbotron>div>button: {
-	background-color: #eb7d4b;
-}
+/*# sourceMappingURL=style.css.map */
