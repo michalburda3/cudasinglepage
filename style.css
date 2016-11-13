@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
 body {
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  margin: 0 auto; }
+
+.container {
+  width: 1200px; }
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
@@ -34,33 +38,138 @@ ul.navbar-right {
   background-color: #87509c;
   margin: 0px; }
 
-div.jumbotron {
+.jumbotron {
   height: 35rem;
   color: #ffffff;
   background-color: #87509c;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 8rem;
   box-sizing: border-box; }
+  .jumbotron p {
+    line-height: 5rem;
+    font-size: 3.5rem;
+    font-weight: 700; }
+  .jumbotron div button {
+    background-color: #eb7d4b;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 2px -2px #c86a40; }
+    .jumbotron div button:hover {
+      background-color: #c86a40; }
 
-div.jumbotron > p {
-  line-height: 5rem;
-  font-size: 3.5rem;
-  font-weight: 700; }
-
-div.jumbotron > div > button {
-  background-color: #eb7d4b;
+.offer {
+  background-color: #17c2a4;
   color: #ffffff;
-  text-transform: uppercase;
-  width: 250px;
-  height: 50px;
-  border-radius: 5px;
-  text-align: center;
-  border: 0;
-  margin-top: 20px;
-  padding: 15px;
-  box-shadow: 0 4px 2px -2px #c86a40; }
+  padding: 40px 0 40px 0; }
+  .offer h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .offer h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 35px 25px;
+    margin: 0 50px 50px 25px; }
+  .offer hr {
+    background-color: #13a78d;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .offer div {
+    margin: 10px auto; }
+    .offer div img {
+      margin: 20px auto;
+      height: 200px;
+      width: 200px; }
+    .offer div h3 {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin: 25px auto;
+      padding: 5px; }
+    .offer div p {
+      text-align: center;
+      height: auto;
+      width: 200px;
+      margin: 15px auto;
+      padding: 5px;
+      font-size: 16px; }
 
-div.jumbotron > div > button:hover {
-  background-color: #c86a40; }
+.team {
+  color: #3c4761;
+  padding: 40px 0 40px 0;
+  background-color: #e7f1f8; }
+  .team h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .team h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 20px 50px;
+    margin: 0 50px 50px 25px; }
+  .team hr {
+    background-color: #c7d9e5;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .team div {
+    margin: 10px auto; }
+    .team div h3 {
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 1px;
+      padding: 10px 25px 0px 25px;
+      text-transform: uppercase; }
+    .team div h4 {
+      font-weight: 300;
+      color: #30bae7;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0px 20px 35px 20px; }
+    .team div img {
+      margin: 20px auto;
+      height: 200px;
+      width: 200px; }
+    .team div p {
+      text-align: center;
+      height: auto;
+      width: 200px;
+      margin: 0 auto;
+      padding: 2px;
+      font-size: 16px; }
+    .team div div {
+      margin: 20px auto;
+      padding: 10px 0;
+      text-align: center; }
+      .team div div i {
+        color: #ffffff;
+        font-size: 28px;
+        padding: 14px;
+        border-radius: 50%;
+        background-color: #bdd1df;
+        width: 50px;
+        height: 50px;
+        margin: 3px; }
 
 /*# sourceMappingURL=style.css.map */

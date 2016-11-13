@@ -1,24 +1,25 @@
 {
-  "name": "cuda-psd-www",
+  "name": "cuda_psd",
   "version": "1.0.0",
-  "description": "grunt config try",
-  "main": "index.js",
+  "description": "moj projekt cuda",
+  "main": "gruntfile.js",
   "scripts": {
-    "test": "michal"
+    "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "git+https://github.com/michalburda3/cudasinglepage.git"
   },
   "keywords": [
-    "grunt"
+    "cuda"
   ],
-  "author": "Michal",
+  "author": "Michał",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalburda3/cudasinglepage/issues"
+  },
+  "homepage": "https://github.com/michalburda3/cudasinglepage#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^1.2.1"
+    "grunt": "^1.0.1"
   }
 }
