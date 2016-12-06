@@ -2,20 +2,34 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900')
 
 
+// // circle variables
+// $circle-width-hover: 0.07em
+// $circle-width: 0.09em
+// $primary-color: #000000
+// $secondary-color: #dfe8ed
+// $bg-color: #ffffff
+// $primary-color-blue: #30bae7
+// $primary-color-green: #15c7a8
+// $primary-color-orange: #eb7d4b 
+// $primary-color-pink: #d74680
+// $primary-color-span: #3c4761
+
+// 
 $fontWhite: #ffffff
 $bcgNavViolet : #87509c
 $bcgOffer : #17c2a4
 $fontWeightForH4: 300
 $fontWeightForH1: 700
 $fontWeightForH3: 600
-$bcgWhite: #e7f1f8
+$bcgGray: #e7f1f8
+
 
 body 
 	font-family: "Titillium Web", sans-serif
 	margin: 0 auto
 
 .container 
-	width: 1200px
+	width: 1100px
 
 
 .navbar-default .navbar-nav>li>a 
@@ -147,7 +161,7 @@ ul.navbar-right
 .team 
 	color: #3c4761
 	padding: 40px 0 40px 0
-	background-color: $bcgWhite
+	background-color: $bcgGray
 
 
 	h1
@@ -220,3 +234,143 @@ ul.navbar-right
 				width: 50px
 				height: 50px
 				margin: 3px
+
+
+.skills
+	color: #3c4761
+	padding: 40px 0 40px 0
+	height: 550px
+
+
+	h1
+		font-size: 42px
+		text-align: center
+		text-transform: uppercase
+		margin: 10px auto
+		padding: 40px 0 0 20px
+		font-weight: $fontWeightForH1
+		letter-spacing: 3px
+
+	h4
+		text-align: center
+		font-weight: $fontWeightForH4
+		letter-spacing: 1px
+		padding: 10px 50px 20px 50px
+		margin: 0 50px 50px 25px
+		
+
+
+	hr
+		&:before, &:after
+		background-color: #dfe8ed
+		width: 100px
+		height: 4px
+		border-top: none
+		margin: 10px auto
+
+	div
+		div
+			
+			p
+				width: 100px
+				height: 40px
+				text-align: center
+				padding: 20px
+				font-size: 22px
+				letter-spacing: 1px
+				font-weight: $fontWeightForH1 
+				text-transform: uppercase
+
+			h4
+				width: 100px
+				height: 40px
+				text-align: center
+				padding: 20px
+				font-size: 22px
+				letter-spacing: 1px
+				font-weight: $fontWeightForH1 
+				text-transform: uppercase
+
+
+
+
+.portfolio
+	color: #393939
+	padding: 40px 0 40px 0
+	background-color: #ffdd99
+	height: 1600px
+
+
+	h1
+		font-size: 42px
+		text-align: center
+		text-transform: uppercase
+		margin: 10px auto
+		padding: 40px 0 0 20px
+		font-weight: $fontWeightForH1
+		letter-spacing: 3px
+
+	h4
+		text-align: center
+		font-weight: $fontWeightForH4
+		letter-spacing: 1px
+		padding: 10px 50px 20px 50px
+		margin: 0 50px 50px 25px
+		
+
+
+	hr
+		&:before, &:after
+		background-color: #e5c37f
+		width: 100px
+		height: 4px
+		border-top: none
+		margin: 10px auto
+
+	button 
+		text-align: center
+		width: 80px
+		height: 40px
+		text-transform: uppercase
+		display: inline-block
+		border: none
+		list-style-type: none
+		margin: 5px
+		padding: 5px
+		background-color: #e5c37f
+		font-weight: $fontWeightForH1
+		font-size: 16px
+		&:hover
+			background-color: #FFF1D6
+
+
+	
+
+	div 
+		text-align: center
+		margin: 10px auto
+
+		h3
+			text-transform: uppercase
+			font-weight: $fontWeightForH4
+			letter-spacing: 1px
+			padding: 10px 50px 20px 50px
+			margin: 0 50px 50px 25px
+			font-size: 22px
+
+
+
+
+
+
+
+
+
+	:last-child
+		>.btn
+			width: 300px
+			height: 65px
+			-webkit-box-shadow: 0px 7px 3px 0px rgba(19,167,141,1);
+			-moz-box-shadow: 0px 7px 3px 0px rgba(19,167,141,1);
+			box-shadow: 0px 7px 3px 0px rgba(19,167,141,1);
+			background-color: #17c2a4

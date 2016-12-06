@@ -4,7 +4,7 @@ body {
   margin: 0 auto; }
 
 .container {
-  width: 1200px; }
+  width: 1100px; }
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
@@ -171,5 +171,106 @@ ul.navbar-right {
         width: 50px;
         height: 50px;
         margin: 3px; }
+
+.skills {
+  color: #3c4761;
+  padding: 40px 0 40px 0;
+  height: 550px; }
+  .skills h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .skills h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 20px 50px;
+    margin: 0 50px 50px 25px; }
+  .skills hr {
+    background-color: #dfe8ed;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .skills div div p {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .skills div div h4 {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.portfolio {
+  color: #393939;
+  padding: 40px 0 40px 0;
+  background-color: #ffdd99;
+  height: 1600px; }
+  .portfolio h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .portfolio h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 20px 50px;
+    margin: 0 50px 50px 25px; }
+  .portfolio hr {
+    background-color: #e5c37f;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .portfolio button {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: #e5c37f;
+    font-weight: 700;
+    font-size: 16px; }
+    .portfolio button:hover {
+      background-color: #FFF1D6; }
+  .portfolio div {
+    text-align: center;
+    margin: 10px auto; }
+    .portfolio div h3 {
+      text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 1px;
+      padding: 10px 50px 20px 50px;
+      margin: 0 50px 50px 25px;
+      font-size: 22px; }
+  .portfolio :last-child > .btn {
+    width: 300px;
+    height: 65px;
+    -webkit-box-shadow: 0px 7px 3px 0px #13a78d;
+    -moz-box-shadow: 0px 7px 3px 0px #13a78d;
+    box-shadow: 0px 7px 3px 0px #13a78d;
+    background-color: #17c2a4; }
 
 /*# sourceMappingURL=style.css.map */
