@@ -29,7 +29,7 @@ body
 	margin: 0 auto
 
 .container 
-	width: 1100px
+	width: 1300px
 
 
 .navbar-default .navbar-nav>li>a 
@@ -298,7 +298,7 @@ ul.navbar-right
 	color: #393939
 	padding: 40px 0 40px 0
 	background-color: #ffdd99
-	height: 1600px
+	height: 1400px
 
 
 	h1
@@ -356,14 +356,7 @@ ul.navbar-right
 			letter-spacing: 1px
 			padding: 10px 50px 20px 50px
 			margin: 0 50px 50px 25px
-			font-size: 22px
-
-
-
-
-
-
-
+			font-size: 18px
 
 
 	:last-child
@@ -374,3 +367,75 @@ ul.navbar-right
 			-moz-box-shadow: 0px 7px 3px 0px rgba(19,167,141,1);
 			box-shadow: 0px 7px 3px 0px rgba(19,167,141,1);
 			background-color: #17c2a4
+			&:hover
+				background-color: #39e4c6
+
+.aboutUs
+	color: #ffffff
+	padding: 80px 0 80px 0
+	background-color: #d74680
+
+	
+
+
+	h1
+		font-size: 42px
+		text-align: center
+		text-transform: uppercase
+		margin: 10px auto
+		padding: 40px 0 0 20px
+		font-weight: $fontWeightForH1
+		letter-spacing: 3px
+
+	h4
+		text-align: center
+		font-weight: $fontWeightForH4
+		letter-spacing: 1px
+		padding: 10px 50px 20px 50px
+		margin: 0 50px 50px 25px
+		
+
+
+	hr
+		&:before, &:after
+		background-color: #b93c6e
+		width: 100px
+		height: 4px
+		border-top: none
+		margin: 10px auto
+
+	>div // to jest pierwszy poziom zagniezdzenia - lg6 container
+		margin: 50px auto
+
+		>div //drugi poziom lg6 row
+			margin: 20px auto
+
+			>.description
+				margin: auto
+				width: 60%
+
+
+				>p
+					text-align: left
+					font-size: 22px
+					padding: 5px 5px 10px 5px
+
+				>h4
+					text-align: left
+					margin: 0
+					padding: 5px 10px 0px 10px
+					font-size: 22px
+					font-weight: $fontWeightForH1 
+					text-transform: uppercase
+				>h6	
+					text-align: left
+					padding: 5px 10px 5px 10px
+					font-size: 18px
+					margin: 0
+					color: #f9c895
+
+			>.photo
+				
+				width: 40%
+				>img
+					margin: 10px auto

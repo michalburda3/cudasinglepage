@@ -4,7 +4,7 @@ body {
   margin: 0 auto; }
 
 .container {
-  width: 1100px; }
+  width: 1300px; }
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
@@ -219,7 +219,7 @@ ul.navbar-right {
   color: #393939;
   padding: 40px 0 40px 0;
   background-color: #ffdd99;
-  height: 1600px; }
+  height: 1400px; }
   .portfolio h1 {
     font-size: 42px;
     text-align: center;
@@ -264,7 +264,7 @@ ul.navbar-right {
       letter-spacing: 1px;
       padding: 10px 50px 20px 50px;
       margin: 0 50px 50px 25px;
-      font-size: 22px; }
+      font-size: 18px; }
   .portfolio :last-child > .btn {
     width: 300px;
     height: 65px;
@@ -272,5 +272,60 @@ ul.navbar-right {
     -moz-box-shadow: 0px 7px 3px 0px #13a78d;
     box-shadow: 0px 7px 3px 0px #13a78d;
     background-color: #17c2a4; }
+    .portfolio :last-child > .btn:hover {
+      background-color: #39e4c6; }
+
+.aboutUs {
+  color: #ffffff;
+  padding: 80px 0 80px 0;
+  background-color: #d74680; }
+  .aboutUs h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .aboutUs h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 20px 50px;
+    margin: 0 50px 50px 25px; }
+  .aboutUs hr {
+    background-color: #b93c6e;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .aboutUs > div {
+    margin: 50px auto; }
+    .aboutUs > div > div {
+      margin: 20px auto; }
+      .aboutUs > div > div > .description {
+        margin: auto;
+        width: 60%; }
+        .aboutUs > div > div > .description > p {
+          text-align: left;
+          font-size: 22px;
+          padding: 5px 5px 10px 5px; }
+        .aboutUs > div > div > .description > h4 {
+          text-align: left;
+          margin: 0;
+          padding: 5px 10px 0px 10px;
+          font-size: 22px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        .aboutUs > div > div > .description > h6 {
+          text-align: left;
+          padding: 5px 10px 5px 10px;
+          font-size: 18px;
+          margin: 0;
+          color: #f9c895; }
+      .aboutUs > div > div > .photo {
+        width: 40%; }
+        .aboutUs > div > div > .photo > img {
+          margin: 10px auto; }
 
 /*# sourceMappingURL=style.css.map */
