@@ -3,64 +3,57 @@ body {
   font-family: "Titillium Web", sans-serif;
   margin: 0 auto; }
 
-.container {
-  width: 1300px; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-  padding: 6.5rem 0.8rem;
-  line-height: 4rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-weight: 200; }
-
-ul.navbar-right {
-  margin-right: 25rem; }
-
-.navbar > .container-fluid .navbar-brand {
-  margin-left: 25rem; }
-
-.navbar-default .navbar-brand {
-  color: #ffffff;
-  padding: 6.5rem 1rem;
-  line-height: 4rem;
-  font-size: 6rem;
-  box-sizing: border-box;
-  height: 15rem;
-  font-weight: 700;
-  font-style: italic;
-  /*dobrac jakas inna czcionke*/ }
+.container-fluid {
+  max-width: 1300px; }
 
 .navbar-default {
-  height: 17rem;
+  height: 150px;
   background-color: #87509c;
-  margin: 0px; }
+  margin: 0;
+  border: none; }
+  .navbar-default .container-fluid .navbar-header > a > img {
+    margin: 50px; }
+  .navbar-default .container-fluid .navbar-nav > li > a {
+    color: #ffffff;
+    margin-top: 6.5rem;
+    margin-bottom: 0.8rem;
+    padding: 10px 12px;
+    margin-left: 1.5rem;
+    margin-right: 1.7rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 400; }
+    .navbar-default .container-fluid .navbar-nav > li > a:hover {
+      background-color: #643a79;
+      border-radius: 5px; }
 
 .jumbotron {
-  height: 35rem;
   color: #ffffff;
   background-color: #87509c;
+  background-size: cover;
   margin: 0 auto;
-  padding-top: 8rem;
+  padding-top: 10rem;
   box-sizing: border-box; }
   .jumbotron p {
     line-height: 5rem;
-    font-size: 3.5rem;
-    font-weight: 700; }
+    font-size: 4.5rem;
+    font-weight: 600; }
   .jumbotron div button {
     background-color: #eb7d4b;
     color: #ffffff;
     text-transform: uppercase;
-    width: 250px;
-    height: 50px;
+    width: 310px;
+    height: 70px;
     border-radius: 5px;
     text-align: center;
     border: 0;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     padding: 15px;
-    box-shadow: 0 4px 2px -2px #c86a40; }
+    -webkit-box-shadow: 0 4px 2px -2px #c86a40;
+    -moz-box-shadow: 0 4px 2px -2px #c86a40;
+    box-shadow: 0 4px 2px -2px #c86a40;
+    font-weight: 400; }
     .jumbotron div button:hover {
       background-color: #c86a40; }
 
@@ -196,30 +189,26 @@ ul.navbar-right {
     height: 4px;
     border-top: none;
     margin: 10px auto; }
-  .skills div div p {
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    padding: 20px;
-    font-size: 22px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase; }
-  .skills div div h4 {
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    padding: 20px;
-    font-size: 22px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase; }
+  .skills div.row {
+    margin: 0 auto; }
+    .skills div.row div.wrapper {
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 90px; }
+    .skills div.row h3 {
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      padding: 20px;
+      font-size: 22px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      text-transform: uppercase; }
 
 .portfolio {
   color: #393939;
   padding: 40px 0 40px 0;
-  background-color: #ffdd99;
-  height: 1400px; }
+  background-color: #ffdd99; }
   .portfolio h1 {
     font-size: 42px;
     text-align: center;
@@ -265,13 +254,25 @@ ul.navbar-right {
       padding: 10px 50px 20px 50px;
       margin: 0 50px 50px 25px;
       font-size: 18px; }
+    .portfolio div div > img {
+      margin: 0 auto; }
   .portfolio :last-child > .btn {
-    width: 300px;
-    height: 65px;
-    -webkit-box-shadow: 0px 7px 3px 0px #13a78d;
-    -moz-box-shadow: 0px 7px 3px 0px #13a78d;
-    box-shadow: 0px 7px 3px 0px #13a78d;
-    background-color: #17c2a4; }
+    background-color: #17c2a4;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 310px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 15px;
+    -webkit-box-shadow: 0 4px 2px -2px #17c2a4;
+    -moz-box-shadow: 0 4px 2px -2px #17c2a4;
+    box-shadow: 0 4px 2px -2px #17c2a4;
+    font-weight: 400;
+    font-size: 18px; }
     .portfolio :last-child > .btn:hover {
       background-color: #39e4c6; }
 
@@ -327,5 +328,126 @@ ul.navbar-right {
         width: 40%; }
         .aboutUs > div > div > .photo > img {
           margin: 10px auto; }
+
+.getInTouch {
+  color: #ffffff;
+  padding: 80px 0 80px 0;
+  background-color: #3c5499; }
+  .getInTouch h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+    padding: 40px 0 0 20px;
+    font-weight: 700;
+    letter-spacing: 3px; }
+  .getInTouch h4 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 10px 50px 20px 50px;
+    margin: 0 50px 50px 25px; }
+  .getInTouch hr {
+    background-color: #273a71;
+    width: 100px;
+    height: 4px;
+    border-top: none;
+    margin: 10px auto; }
+  .getInTouch div {
+    width: 1000px; }
+    .getInTouch div > form input {
+      width: 48%;
+      background-color: #273a71;
+      border: none;
+      float: left;
+      display: block;
+      margin-bottom: 30px;
+      height: 60px;
+      color: #ffffff;
+      padding: 15px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form input:first-of-type {
+      margin-right: 4%; }
+    .getInTouch div > form input::-webkit-input-placeholder {
+      color: #ffffff;
+      padding: 8px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form input:-moz-placeholder {
+      color: #ffffff;
+      padding: 8px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form input::-moz-placeholder {
+      color: #ffffff;
+      padding: 8px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form input::-ms-input-placeholder {
+      color: #ffffff;
+      padding: 8px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form textarea {
+      background-color: #273a71;
+      border: none;
+      color: #ffffff;
+      padding: 15px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form textarea::-webkit-input-placeholder {
+      color: #ffffff;
+      padding: 5px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form textarea:-moz-placeholder {
+      color: #ffffff;
+      padding: 5px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form textarea::-moz-placeholder {
+      color: #ffffff;
+      padding: 5px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .getInTouch div > form textarea:-ms-input-placeholder {
+      color: #ffffff;
+      padding: 5px;
+      font-size: 18px;
+      letter-spacing: 1px; }
+  .getInTouch button[type="submit"] {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 300px;
+    height: 65px;
+    -webkit-box-shadow: 0 4px 2px -2px #29a0c7;
+    -moz-box-shadow: 0 4px 2px -2px #29a0c7;
+    box-shadow: 0 4px 2px -2px #29a0c7;
+    background-color: #30bae7; }
+    .getInTouch button[type="submit"]:hover {
+      background-color: #20aad6;
+      border: none; }
+
+footer {
+  background-color: #344b8e;
+  text-align: center; }
+  footer div.container-fluid {
+    margin: 0 auto; }
+    footer div.container-fluid > a {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 25px;
+      font-weight: 600;
+      color: #ffffff;
+      padding: 30px;
+      margin: 20px auto;
+      text-align: center;
+      display: inline-block; }
+      footer div.container-fluid > a:hover {
+        cursor: pointer;
+        color: #30bae7; }
 
 /*# sourceMappingURL=style.css.map */

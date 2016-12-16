@@ -1,0 +1,40 @@
+
+
+
+@media screen (max-width: 768px){
+	footer div .container-fluid>a {
+		display: block;
+		font-size: 20px;
+
+		
+	}
+
+	footer div .container-fluid>a:hover {
+		color: #ffffff;
+	}
+}
+
+
+footer
+
+	background-color: #344b8e
+	text-align: center
+
+
+
+	div.container-fluid
+		margin: 0 auto
+
+		>a 
+			text-decoration: none
+			display: inline-block
+			font-size: 25px
+			font-weight: $fontWeightForH3
+			color: #ffffff
+			padding: 30px
+			margin: 20px auto
+			text-align: center
+			display: inline-block
+			&:hover
+				cursor: pointer
+				color: #30bae7
